@@ -1,10 +1,11 @@
 package com.cleyxds.dsvendas.dto;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.cleyxds.dsvendas.entities.Sale;
 
-public class SaleDTO {
+public class SaleDTO implements Serializable {
   
   private Long id;
   private Integer visited;
